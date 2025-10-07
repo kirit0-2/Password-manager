@@ -122,8 +122,7 @@ const Manager = () => {
             <div className="mycontainer min-h-screen pb-20">
                 <div className="pt-8 pb-12">
                     <h1 className='text-5xl font-bold text-center mb-4 bg-gradient-to-r from-blue-800 to-purple-600 bg-clip-text text-transparent'>
-                        <span className='text-blue-600'>&lt;</span>
-                        <span>Pass</span><span className='text-purple-600'>OP/&gt;</span>
+                        <span>Pass</span><span className='text-purple-600'>/SEC</span>
                     </h1>
                     <p className='text-gray-600 text-xl text-center font-medium'>Your own Password Manager</p>
                     <p className='text-gray-600 text-xl text-center font-medium'>No login required</p>

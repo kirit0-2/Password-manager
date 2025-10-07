@@ -1,36 +1,77 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🔐 Password Manager
 
-## Getting Started
+A simple, secure, and minimal **Password Manager** built with modern web technologies.
+This project helps users **store, manage, and retrieve passwords safely** — all while keeping the experience clean and intuitive.
 
-First, run the development server:
+---
+
+## 🚀 Features
+
+* **Add / Edit / Delete Passwords** – easily manage your credentials
+* **Search Functionality** – quickly find accounts by name or domain
+* **Encrypted Storage** – passwords are stored securely (not in plain text)
+* **Clipboard Copy** – one-click copy feature for convenience
+* **Responsive UI** – built with TailwindCSS for clean and fast design
+* **Local Storage / MongoDB Support** – works offline or with backend integration
+
+---
+
+## 🛠️ Tech Stack
+
+* **Frontend:** React.js / Next.js
+* **Styling:** Tailwind CSS
+* **Backend (optional):** Node.js + Express + MongoDB
+* **Security:** bcrypt / AES Encryption
+* **Version Control:** Git + GitHub
+
+---
+
+## 📦 Installation
 
 ```bash
+# Clone this repository
+git clone https://github.com/yourusername/password-manager.git
+
+# Navigate into the folder
+cd password-manager
+
+# Install dependencies
+npm install
+
+# Run the development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open your browser at [http://localhost:3000](http://localhost:3000)
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## ⚙️ How It Works
 
-## Learn More
+1. User enters account details (name, username, password, etc.)
+2. Data is encrypted before being saved locally or to MongoDB
+3. User can view or copy credentials without exposing raw passwords
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 💡 Future Improvements
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+* 🔐 Integrate biometric login (Face ID / fingerprint)
+* ☁️ Add cloud sync using MongoDB Atlas
+* 🧩 Browser extension for quick access
+* 🎨 Dark / light theme toggle
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🧑‍💻 Author
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+**Mikey (Wren)**
+
+> Passionate about building clean, secure, and interactive web apps.
+> [GitHub](https://github.com/yourusername) • [LinkedIn](https://linkedin.com/in/yourusername)
+
+---
+
+## 🪪 License
+
+This project is licensed under the [MIT License](LICENSE) — feel free to use and modify it with proper credit.

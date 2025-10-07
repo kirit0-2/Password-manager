@@ -162,7 +162,7 @@ const Manager = () => {
                                     id="password" 
                                 />
                                 <span onClick={showPassword} className='absolute right-4 top-1/2 transform -translate-y-1/2 cursor-pointer p-1 rounded-full hover:bg-gray-100 transition-colors duration-200'>
-                                    <img ref={ref} className='w-5 h-5' src="icons/eye.png" alt="toggle password visibility" />
+                                    <img ref={ref} className='w-5 h-5' src="./icons/eye.png" alt="toggle password visibility" />
                                 </span>
                             </div>
                         </div>

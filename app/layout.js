@@ -5,7 +5,7 @@ export const metadata = {
   title: "PassOP - Your own password manager",
   description: "Password manager",
   icons: {
-    icon: '/favicon.png',
+    icon: './favicon.png',
   },
 };
 

@@ -1,5 +1,5 @@
 import "./globals.css";
-
+import Script from "next/script";
 
 export const metadata = {
   title: "PassOP - Your own password manager",
@@ -14,7 +14,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body>
         {children}
-        <script src="https://cdn.lordicon.com/lordicon.js"></script>
+        <Script src="https://cdn.lordicon.com/lordicon.js" strategy="lazyOnload"></Script>
       </body>
     </html>
   );

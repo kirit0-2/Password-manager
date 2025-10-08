@@ -65,7 +65,7 @@ Open your browser at [http://localhost:3000](http://localhost:3000)
 
 ## 🧑‍💻 Author
 
-**Mikey (Wren)**
+**Wren**
 
 > Passionate about building clean, secure, and interactive web apps.
 > [GitHub](https://github.com/kirit0-2/) • [LinkedIn](https://linkedin.com/in/kirit02/)

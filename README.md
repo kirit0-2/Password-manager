@@ -68,7 +68,7 @@ Open your browser at [http://localhost:3000](http://localhost:3000)
 **Mikey (Wren)**
 
 > Passionate about building clean, secure, and interactive web apps.
-> [GitHub](https://github.com/yourusername) • [LinkedIn](https://linkedin.com/in/yourusername)
+> [GitHub](https://github.com/kirit0-2/) • [LinkedIn](https://linkedin.com/in/kirit02/)
 
 ---
 
